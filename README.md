@@ -18,7 +18,7 @@ The client neglected to mention that users should also be able to save a first n
 
 First you need to update the users.js route to send the users.html file.
 
-Then you need to lock down the users.html file. Do this by adding a passport authenticate method to users.js. 
+Then you need to lock down the users.html file. Do this by adding `req.isAuthenticated()` check to the express route.
 
 Flesh out the users.html file. It should display a list of all users in the database (excluding passwords). You'll need to create an Ajax method to get the list of users, as well as a route to send the list of users that are in the database. The route that sends all users should also be protected by passport authenticate. **DO NOT SEND THE PASSWORDS IN THE RESPONSE** even though they're encrypted. 
 
