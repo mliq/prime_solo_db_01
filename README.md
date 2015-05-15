@@ -1,5 +1,7 @@
 # prime_solo_db_01
 
+WEEKEND ASSIGNMENT GO
+
 It's time to get started using passport! The purpose of this assignment is to show that you can follow development guides created by people on the interwebs. Follow along, make sure you're putting code in the correct files, and try to read through the code and understand what's happening under the hood. 
 
 ##A client's request
