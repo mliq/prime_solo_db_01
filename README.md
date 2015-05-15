@@ -4,24 +4,27 @@ It's time to get started using passport! The purpose of this assignment is to sh
 
 ##A client's request
 
-You've been tasked with developing an application for a client that is required to authenticate users against a Mongo database. You are familiar with NodeJS, Express and Mongo so you're sure you can get it to work with some help. Luckily, you found a really awesome step-by-step guide that has just the bare minimum requirements!
+You've been tasked with developing an application for a client that is required to authenticate users against a Mongo database. You are familiar with NodeJS, Express.js and MongoDB so you're sure you can get it to work with some help. Luckily, you found a really awesome step-by-step guide that has just the bare minimum requirements!
 
-Create a new solution Node in Web Storm (don't forget to create a .gitignore file and add .idea, node_modules and .DS_Store to it).
+##Go do the thing!
 
-Next, starting from zero, follow the guide [here](https://docs.google.com/a/primeacademy.io/document/d/1SRq1ubPt0AUn8VybhZZ6fBqOoKaKlPIwScycJzFeAFQ/edit?usp=sharing).
+Create a new NodeJS solution in Web Storm (don't forget to create a .gitignore file and add .idea, node_modules and .DS_Store to it).
 
+Next, starting from zero, follow the guide that you found [here](https://docs.google.com/a/primeacademy.io/document/d/1SRq1ubPt0AUn8VybhZZ6fBqOoKaKlPIwScycJzFeAFQ/edit?usp=sharing).
 
 Once you've got everything installed and all of the code added, run the application. You should be able to register a test user and make sure the login screen works right. If it works, you'll see "true" displayed after logging in.
 
+###Client changes
+
+The client neglected to mention that users should also be able to save a first name, last name, and email address when signing up in the registration form. Make those changes. Verify that those fields are saving with Robomongo.
+
 ##Hard Mode
 
-The client neglected to mention that users should also be able to save a first name, last name, and email address when signing up in the registration form. Make those changes. 
+###Finish the users screen
 
-##Finish the users screen
+You need to update the users.js route to send the users.html file.
 
-First you need to update the users.js route to send the users.html file.
-
-Then you need to lock down the users.html file. Do this by adding `req.isAuthenticated()` check to the express route.
+Then you need to lock down the users.html file. Do this by adding a `req.isAuthenticated()` check to the express route.
 
 Flesh out the users.html file. It should display a list of all users in the database (excluding passwords). You'll need to create an Ajax method to get the list of users, as well as a route to send the list of users that are in the database. The route that sends all users should also be protected by passport authenticate. **DO NOT SEND THE PASSWORDS IN THE RESPONSE** even though they're encrypted. 
 
