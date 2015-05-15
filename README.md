@@ -1,16 +1,19 @@
 # prime_solo_db_01
 
-It's time to get started using passport! Setting up passport isn't too hard, but your senior developer has already set it up for you. However, the client has come back with functionality changes and you've been tasked with making it happen!
+It's time to get started using passport! The purpose of this assignment is to show that you can follow development guides created by people on the interwebs. Follow along, make sure you're putting code in the correct files, and try to read through the code and understand what's happening under the hood. 
 
-##Go get the base project
+##A client's request
 
-You need to [go download](https://github.com/PrimeAcademy/prime_example_passport) the lead dev's code and put it in a new repo.
+You've been tasked with developing an application for a client that is required to authenticate users against a Mongo database. You are familiar with NodeJS, Express and Mongo so you're sure you can get it to work with some help. Luckily, you found a really awesome step-by-step guide that has just the bare minimum requirements!
 
-##Take it for a spin
+Create a new solution Node in Web Storm (don't forget to create a .gitignore file and add .idea, node_modules and .DS_Store to it).
 
-The other dev didn't have time to finish the required functionality, let along make the changes needed. First thing is first. Run the application, register a test user and make sure the login screen works right. 
+Next, starting from zero, follow the guide [here](https://docs.google.com/a/primeacademy.io/document/d/1SRq1ubPt0AUn8VybhZZ6fBqOoKaKlPIwScycJzFeAFQ/edit?usp=sharing).
 
-##Add missing fields
+
+Once you've got everything installed and all of the code added, run the application. You should be able to register a test user and make sure the login screen works right. If it works, you'll see "true" displayed after logging in.
+
+##Hard Mode
 
 The client neglected to mention that users should also be able to save a first name, last name, and email address when signing up in the registration form. Make those changes. 
 
@@ -24,3 +27,10 @@ Flesh out the users.html file. It should display a list of all users in the data
 
 **NOTE**
 AJAX calls send Cookies if the url you're calling is on the same domain as your calling script. If you're authenticated, you shouldn't have a problem.
+
+##Pro Mode
+
+Integrate Grunt and Bootstrap into the project, and do some fancy styling!
+
+
+
