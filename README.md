@@ -4,11 +4,11 @@ It's time to get started using passport! The purpose of this assignment is to sh
 
 ##A client's request
 
-You've been tasked with developing an application for a client that is required to authenticate users against a Mongo database. You are familiar with NodeJS, Express.js and MongoDB so you're sure you can get it to work with some help. Luckily, you found a really awesome step-by-step guide that has just the bare minimum requirements!
+You've been tasked with developing an application for a client that is required to authenticate users against a Mongo database. You are familiar with Node.JS, Express and MongoDB so you're sure you can get it to work with some help. Luckily, you found a really awesome step-by-step guide that has just the bare minimum requirements!
 
 ##Go do the thing!
 
-Create a new NodeJS solution in Web Storm (don't forget to create a .gitignore file and add .idea, node_modules and .DS_Store to it).
+Create a new Node.JS solution in Web Storm (don't forget to create a .gitignore file and add .idea, node_modules and .DS_Store to it).
 
 Next, starting from zero, follow the guide that you found [here](https://docs.google.com/a/primeacademy.io/document/d/1SRq1ubPt0AUn8VybhZZ6fBqOoKaKlPIwScycJzFeAFQ/edit?usp=sharing).
 
